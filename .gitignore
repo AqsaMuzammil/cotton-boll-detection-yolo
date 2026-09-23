@@ -1,3 +1,4 @@
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -216,3 +217,15 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# YOLO project data and generated files
+data/
+datasets/
+runs/
+outputs/
+logs/
+*.pt
+*.pth
+*.weights
+*.onnx
+*.engine
+slurm-*.out
